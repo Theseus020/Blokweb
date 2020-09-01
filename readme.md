@@ -56,7 +56,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** Ik denk dat ik op rood zit. Mijn kennis van HTML en CSS is goed, van Javascript moet ik nog meer leren.
+**Je startniveau:** Ik denk dat ik op <strong>rood</strong> zit. Mijn kennis van HTML en CSS is goed, van Javascript moet ik nog meer leren.
 
 **Je focus:** Ik wil mezelf uitdagen, ik ga dus proberen om op de surface focussen én een responsive site te maken. Gaandeweg ga ik ontdekken of dit lukt, maar ik heb er vertrouwen in.
 
