@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** Thijs Uffen, 500787477
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -56,15 +56,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+**Je startniveau:** Ik denk dat ik op rood zit. Mijn kennis van HTML en CSS is goed, van Javascript moet ik nog meer leren.
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** Ik wil mezelf uitdagen, ik ga dus proberen om op de surface focussen én een responsive site te maken. Gaandeweg ga ik ontdekken of dit lukt, maar ik heb er vertrouwen in.
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** -https://www.amsterdam-dance-event.nl/en/ <---- deze website vind ik heel vet en immersive. Het opzij scrollen vind ik ook een cool element. Ik ga hiermee beginnen om te kijken of het me lukt, maar misschien dat ik later nog van website wissel.-
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+![Foto 1](images/ADE_screenshot_1)
+![Foto 2](images/ADE_screenshot_2)
 
 **Breakdown-schets(en):**
 
