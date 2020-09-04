@@ -56,11 +56,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** Ik denk dat ik op <strong>rood</strong> zit. Mijn kennis van HTML en CSS is goed, van Javascript moet ik nog meer leren.
+**Je startniveau:** Ik denk dat ik op <strong>blauw</strong> zit, omdat het een tijd geleden is dat ik met HTML/CSS/Programmeren gewerkt heb. Ik heb zeker wel genoeg kennis om van start te gaan, en misschien haal ik dingen sneller op dan verwacht. Maar op dit moment moet ik mijn skills even oppoetsen.
 
-**Je focus:** Ik wil mezelf uitdagen, ik ga dus proberen om op de surface focussen én een responsive site te maken. Gaandeweg ga ik ontdekken of dit lukt, maar ik heb er vertrouwen in.
+**Je focus:** Ik wil mezelf uitdagen, ik wil sowieso mijn programmeerskills naar een hoger niveau tillen. Ik begin met het focussen op de surface van mijn website, en wellicht dat ik er later voor kies om de site responsive te maken.
 
-**Je opdracht:** -https://www.amsterdam-dance-event.nl/en/ <---- deze website vind ik heel vet en immersive. Het opzij scrollen vind ik ook een cool element. Ik ga hiermee beginnen om te kijken of het me lukt, maar misschien dat ik later nog van website wissel.-
+**Je opdracht:** https://www.ajax.nl <---- Ik denk dat ik goed aan de slag kan met de website van Ajax. Ze gebruiken een duidelijk grid en hebben toch eigenzinnige stijlelementen. De site zelf heeft niet echt veel microinteracties/animaties. Als me het lukt zou ik het tof vinden om deze zelf toe te voegen.
 
 **Screenshot(s):**
 
