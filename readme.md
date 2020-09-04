@@ -56,7 +56,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** Ik denk dat ik op <strong>blauw</strong> zit, omdat het een tijd geleden is dat ik met HTML/CSS/Programmeren gewerkt heb. Ik heb zeker wel genoeg kennis om van start te gaan, en misschien haal ik dingen sneller op dan verwacht. Maar op dit moment moet ik mijn skills even oppoetsen.
+**Je startniveau:** Ik denk dat ik op <strong>blauw</strong> zit, omdat het een tijd geleden is dat ik met HTML/CSS/Java gewerkt heb. Ik heb zeker wel genoeg kennis om van start te gaan, en misschien haal ik dingen sneller op dan verwacht. Maar op dit moment moet ik mijn skills even oppoetsen.
 
 **Je focus:** Ik wil mezelf uitdagen, ik wil sowieso mijn programmeerskills naar een hoger niveau tillen. Ik begin met het focussen op de surface van mijn website, en wellicht dat ik er later voor kies om de site responsive te maken.
 
