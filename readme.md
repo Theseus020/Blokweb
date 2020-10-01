@@ -32,7 +32,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+![Foto 1](images/wk5_voortgang.png)
 
 
 
@@ -40,19 +40,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+In week 3 hadden we het eerste voortganggesprek met een student assistent. Hij gaf ons enkele handige tips, die we wel zelf moesten achterhalen. Dus er werd niet echt kritisch gekeken naar onze code. Wat ik op dat moment had was vrij minimaal, omdat ik sommige elementen niet helemaal doorhad. 
 
-**Screenshot(s):**
-
--screenshot(s) van hoe ver je bent-
-
-### Agenda voor meeting
-
--samen met je groepje opstellen-
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
+![Foto 1](images/wk3_voortgang.png)
 
 
 
