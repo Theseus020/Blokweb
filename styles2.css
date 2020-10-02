@@ -175,7 +175,7 @@ article h2 {
     background-color: white;
 }
 
-main .artikelen1 article:nth-of-type(1){
+main .artikelen1 article:nth-of-type(1) {
     padding-top: 120px;
 }
 
@@ -187,6 +187,13 @@ main .artikelen1 article:nth-of-type(1){
 
 /*/////////////Scroll menu //////////////////*/
 
+section.middenMenu {
+    overflow-x: scroll;
+}
+
+section.middenMenu::-webkit-scrollbar {
+    display: none;
+}
 
 .middenMenu ul {
     list-style: none;
@@ -195,7 +202,6 @@ main .artikelen1 article:nth-of-type(1){
     flex-wrap: nowrap;
     justify-content: space-between;
     padding: 0 5% 0 5%;
-    overflow-x: scroll;
 
 }
 
@@ -207,8 +213,35 @@ main .artikelen1 article:nth-of-type(1){
 
 }
 
-.middenMenu a:first-of-type{
+.middenMenu li:first-of-type a {
+    text-decoration-color: red;
+    border-bottom: 2px solid #c2002f;
+
+}
+
+.middenMenu a:first-of-type {
     border-bottom-width: 2px;
     border-bottom-color: red;
 }
 
+
+
+
+/*/Artikel header/*/
+
+.artikelenHeader {
+    background-image: url(Images/nav_background.png);
+    height: 60%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.artikelenHeader h1 {
+    color: white;
+    padding: 1.875rem 1.5rem;
+    max-width: 10em;
+    font-size: 2.25em;
+    font-weight: 800;
+    line-height: .92;
+    
+}
