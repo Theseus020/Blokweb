@@ -45,6 +45,7 @@
 
  nav a[href="https://www.ajaxshop.nl/nl"],
  [href="https://sport.eventim.nl/ols/ajax/nl/thuiswedstrijden/channel/shop/index/l"] {
+     font-family: "Suisse Int'l Medium";
      padding: .3em .75em;
      text-align: center;
      color: white;
@@ -126,6 +127,7 @@
  }
 
  article h3 {
+     font-family: "Suisse Int'l Medium";
      position: absolute;
      margin: 0;
      padding: 10%;
@@ -134,6 +136,7 @@
  }
 
  .artikelen1 article:nth-child(1) a {
+     font-family: "Suisse Int'l Medium";
      position: absolute;
      text-decoration: none;
      color: black;
@@ -146,6 +149,7 @@
  }
 
  .artikelen1 article:nth-child(2) a {
+     font-family: "Suisse Int'l Medium";
      position: absolute;
      text-decoration: none;
      color: black;
@@ -159,6 +163,7 @@
  }
 
  .artikelen2 article:nth-child(1) p {
+     font-family: "Suisse Int'l Medium";
      position: absolute;
      margin: 0;
      padding: .4em .5em;
