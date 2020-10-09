@@ -1,247 +1,236 @@
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
-    font-family: "Suisse Int'l Medium";
+ *,
+ *::after,
+ *::before {
+     box-sizing: border-box;
+     font-family: "Suisse Int'l Medium";
 
-}
+ }
 
-html,
-body,
-.artikelen {
-    margin: 0;
-    padding: 0;
-}
+ html,
+ body,
+ .artikelen {
+     margin: 0;
+     padding: 0;
+ }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1;
-}
-
-
-header nav {
-    flex-grow: 1;
-    background-image: url(Images/nav_background.png);
-    height: 96px;
-    margin-left: 0;
-    margin-right: 0;
-}
+ header {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: nowrap;
+     overflow: hidden;
+     position: fixed;
+     width: 100%;
+     top: 0;
+     z-index: 1;
+ }
 
 
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    justify-content: flex-start;
-    padding: 0 10px;
-    padding-left: 20px;
-}
+ header nav {
+     flex-grow: 1;
+     background-image: url("Images/nav_background.png");
+     height: 6em;
+     margin-left: 0;
+     margin-right: 0;
+ }
 
-nav li {
-    margin: 5px 5px;
-    font-weight: 100;
-}
+ nav a[href="index.html"] {
+     font-family: "Suisse Int'l Medium";
+     color: white;
+     text-transform: uppercase;
+     font-size: 2em;
+     font-family: "SuisseIntl", sans-serif;
+     font-weight: 800;
+     line-height: .92;
+ }
 
-nav ul li:first-of-type {
-    width: 100%;
-    flex-grow: 1;
-}
+ nav a[href="https://www.ajaxshop.nl/nl"],
+ [href="https://sport.eventim.nl/ols/ajax/nl/thuiswedstrijden/channel/shop/index/l"] {
+     padding: .3em .75em;
+     text-align: center;
+     color: white;
+     background-color: transparent;
+     border-color: white;
+     border-style: solid;
+     border-radius: 15px;
+     border-width: 1px;
+     transition: .25s;
+ }
 
+ nav ul {
+     display: flex;
+     flex-wrap: wrap;
+     list-style: none;
+     justify-content: flex-start;
+     padding: 0 0.625em;
+     padding-left: 1.25em;
+ }
 
+ nav li {
+     margin: 0.3125em 0.3125em;
+     font-weight: 100;
+ }
 
-.navbutton {
-    width: em;
-    padding: .3em .75em;
-    text-align: center;
-    color: white;
-    background-color: transparent;
-    border-color: white;
-    border-style: solid;
-    border-radius: 15px;
-    border-width: 1px;
-    transition: .25s;
-
-}
-
-.navbutton:active {
-    background-color: white;
-    color: black;
-}
-
-.navbutton:hover {
-    background-color: white;
-    color: black;
-}
-
-.homeknop {
-    font-family: "Suisse Int'l Medium";
-    color: white;
-    text-transform: uppercase;
-    font-size: 2em;
-    font-family: "SuisseIntl", sans-serif;
-    font-weight: 800;
-    line-height: .92;
-
-}
-
-nav a {
-    list-style: none;
-    text-decoration: none;
-
-}
-
-/*main*/
-//////////////////////////////////////////////////////////
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-}
-
-
-main img {
-    object-fit: cover;
-    width: 90%;
-    margin: 5%;
-}
-
-.hoofdartikel {
-    height: 420px;
-}
-
-.shop {
-    height: 223px;
-}
-
-.artikelen2 {
-    height: 300px;
-}
-
-article {
-    position: relative;
-}
-
-article:nth-last-of-type() {
-    padding-bottom: 10px;
-}
-
-article h2 {
-    position: absolute;
-    margin: 0;
-    padding: 10%;
-    color: white;
-    max-width: 10em;
-}
-
-.artikelen1 article:nth-child(1) a {
-    position: absolute;
-    text-decoration: none;
-    color: black;
-    margin: 0;
-    padding: .4em .5em;
-    bottom: 7%;
-    left: 10%;
-    font-weight: 600;
-    background-color: white;
-}
-
-.artikelen1 article:nth-child(2) a {
-    position: absolute;
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    margin: 0;
-    padding: 0.4em.5em;
-    bottom: 15%;
-    left: 10%;
-    font-weight: 200;
-    background-color: white;
-}
-
-.artikelen2 article:nth-child(1) p {
-    position: absolute;
-    margin: 0;
-    padding: .4em .5em;
-    bottom: 10%;
-    left: 10%;
-    font-weight: 200;
-    background-color: white;
-}
-
-main .artikelen1 article:nth-of-type(1) {
-    padding-top: 120px;
-}
-
-.beginArtikel {
-    padding-top: 120px;
-}
+ nav ul li:first-of-type {
+     width: 100%;
+     flex-grow: 1;
+ }
 
 
 
-/*/////////////Scroll menu //////////////////*/
+ nav a:active,
+ nav a:hover {
+     background-color: white;
+     color: black;
+ }
 
-section.middenMenu {
-    overflow-x: scroll;
-}
 
-section.middenMenu::-webkit-scrollbar {
-    display: none;
-}
+ nav a {
+     list-style: none;
+     text-decoration: none;
 
-.middenMenu ul {
-    list-style: none;
-    display: flex;
-    width: 120%;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding: 0 5% 0 5%;
+ }
 
-}
+ /*main*/
 
-.middenMenu a {
-    text-decoration: none;
-    color: black;
-    font-size: 1rem;
-    font-weight: 600;
+ main {
+     display: flex;
+     flex-wrap: wrap;
+     align-content: center;
+ }
 
-}
 
-.middenMenu li:first-of-type a {
-    text-decoration-color: red;
-    border-bottom: 2px solid #c2002f;
+ main img {
+     object-fit: cover;
+     width: 90%;
+     margin: 5%;
+ }
 
-}
+ .hoofdartikel {
+     height: 26.25em;
+ }
 
-.middenMenu a:first-of-type {
-    border-bottom-width: 2px;
-    border-bottom-color: red;
-}
+ .shop {
+     height: 13.9375em;
+ }
+
+ .artikelen2 {
+     height: 18.75em;
+ }
+
+ article {
+     position: relative;
+ }
+
+ article:last-of-type() {
+     padding-bottom: 0.625em;
+ }
+
+ article h3 {
+     position: absolute;
+     margin: 0;
+     padding: 10%;
+     color: white;
+     max-width: 10em;
+ }
+
+ .artikelen1 article:nth-child(1) a {
+     position: absolute;
+     text-decoration: none;
+     color: black;
+     margin: 0;
+     padding: .4em .5em;
+     bottom: 7%;
+     left: 10%;
+     font-weight: 600;
+     background-color: white;
+ }
+
+ .artikelen1 article:nth-child(2) a {
+     position: absolute;
+     text-decoration: none;
+     color: black;
+     font-weight: 800;
+     margin: 0;
+     padding: 0.4em.5em;
+     bottom: 15%;
+     left: 10%;
+     font-weight: 600;
+     background-color: white;
+ }
+
+ .artikelen2 article:nth-child(1) p {
+     position: absolute;
+     margin: 0;
+     padding: .4em .5em;
+     bottom: 10%;
+     left: 10%;
+     font-weight: 200;
+     background-color: white;
+ }
+
+ main .artikelen1 article:nth-of-type(1) {
+     padding-top: 120px;
+ }
+
+ .beginArtikel {
+     padding-top: 120px;
+ }
+
+
+
+ /*/////////////Scroll menu //////////////////*/
+
+ section.middenMenu {
+     overflow-x: scroll;
+ }
+
+ .middenMenu ul {
+     list-style: none;
+     display: flex;
+     width: 120%;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+     padding: 0 5% 0 5%;
+
+ }
+
+ .middenMenu a {
+     text-decoration: none;
+     color: black;
+     font-size: 1em;
+     font-weight: 600;
+
+ }
+
+ .middenMenu li:first-of-type a {
+     text-decoration-color: red;
+     border-bottom: 2px solid #c2002f;
+
+ }
+
+ .middenMenu a:first-of-type {
+     border-bottom-width: 2px;
+     border-bottom-color: red;
+ }
 
 
 
 
-/*/Artikel header/*/
+ /*/Artikel header/*/
 
-.artikelenHeader {
-    background-image: url(Images/nav_background.png);
-    height: 60%;
-    margin-left: 0;
-    margin-right: 0;
-}
+ .artikelenHeader {
+     background-image: url(Images/nav_background.png);
+     height: 60%;
+     margin-left: 0;
+     margin-right: 0;
+ }
 
-.artikelenHeader h1 {
-    color: white;
-    padding: 1.875rem 1.5rem;
-    max-width: 10em;
-    font-size: 2.25em;
-    font-weight: 800;
-    line-height: .92;
-    
-}
+ .artikelenHeader h1 {
+     color: white;
+     padding: 1.875em 1.5em;
+     max-width: 10em;
+     font-size: 2.25em;
+     font-weight: 800;
+     line-height: .92;
+
+ }
