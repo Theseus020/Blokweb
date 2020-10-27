@@ -26,14 +26,10 @@
 
 
  header nav {
-     flex-grow: 1;
-     background-image: url("Images/nav_background.png");
-     height: 6em;
-     margin-left: 0;
-     margin-right: 0;
+     height: 100vh;
  }
 
- nav a[href="index.html"] {
+ nav li a[href="index.html"] {
      font-family: "Suisse Int'l Medium";
      color: white;
      text-transform: uppercase;
@@ -57,13 +53,24 @@
      transition: .25s;
  }
 
- nav ul {
+ nav ul:first-of-type {
      display: flex;
      flex-wrap: wrap;
      list-style: none;
      justify-content: flex-start;
      padding: 0 0.625em;
      padding-left: 1.25em;
+     flex-grow: 1;
+     background-image: url("Images/nav_background.png");
+     height: 6em;
+     margin-left: 0;
+     margin-right: 0;
+     margin-top: 0;
+ }
+
+ nav ul:first-of-type li:first-of-type {
+     position: relative;
+     top: 0.5em;
  }
 
  nav li {
@@ -91,6 +98,31 @@
 
  }
 
+nav img {
+    position:relative;
+    left: 4em;
+}
+
+ nav ul:nth-of-type(2) {
+     position: relative;
+     background-color: #B70029;
+     list-style: none;
+     color: white;
+     top: -100em;
+     opacity: 0%;
+     padding-top: 1em;
+     padding-bottom: 1em;
+     z-index: -1;
+     transition: .5s;
+ }
+
+ nav ul:nth-of-type(2).menuOpen {
+     opacity: 100%;
+     transition: .5s;
+     top: -1em;
+ }
+
+
  /*main*/
 
  main {
@@ -100,21 +132,23 @@
  }
 
 
- main img {
+ .main img {
      object-fit: cover;
      width: 90%;
      margin: 5%;
  }
 
- .hoofdartikel {
+ .main main article:first-of-type img {
      height: 26.25em;
  }
 
- .shop {
+ .main main article:nth-of-type(2) img {
      height: 13.9375em;
  }
 
- .artikelen2 {
+
+
+ .main section:nth-of-type(3) {
      height: 18.75em;
  }
 
@@ -129,13 +163,14 @@
  article h3 {
      font-family: "Suisse Int'l Medium";
      position: absolute;
+     font-size: 1.5em;
      margin: 0;
      padding: 10%;
      color: white;
      max-width: 10em;
  }
 
- .artikelen1 article:nth-child(1) a {
+ .main article:nth-child(1) a {
      font-family: "Suisse Int'l Medium";
      position: absolute;
      text-decoration: none;
@@ -148,7 +183,7 @@
      background-color: white;
  }
 
- .artikelen1 article:nth-child(2) a {
+ .main article:nth-child(2) a {
      font-family: "Suisse Int'l Medium";
      position: absolute;
      text-decoration: none;
@@ -162,7 +197,7 @@
      background-color: white;
  }
 
- .artikelen2 article:nth-child(1) p {
+ .main article:nth-child(1) p {
      font-family: "Suisse Int'l Medium";
      position: absolute;
      margin: 0;
@@ -173,7 +208,7 @@
      background-color: white;
  }
 
- main .artikelen1 article:nth-of-type(1) {
+ .main article:nth-of-type(1) {
      padding-top: 120px;
  }
 
@@ -185,11 +220,12 @@
 
  /*/////////////Scroll menu //////////////////*/
 
- section.middenMenu {
+ .main main section:nth-of-type(2) {
+     width: 100%;
      overflow-x: scroll;
  }
 
- .middenMenu ul {
+ .main main section:nth-of-type(2) ul {
      list-style: none;
      display: flex;
      width: 120%;
@@ -199,7 +235,7 @@
 
  }
 
- .middenMenu a {
+ .main main section:nth-of-type(2) a {
      text-decoration: none;
      color: black;
      font-size: 1em;
@@ -207,13 +243,13 @@
 
  }
 
- .middenMenu li:first-of-type a {
+ .main main section:nth-of-type(2) li:first-of-type a {
      text-decoration-color: red;
      border-bottom: 2px solid #c2002f;
 
  }
 
- .middenMenu a:first-of-type {
+ .main main section:nth-of-type(2) a:first-of-type {
      border-bottom-width: 2px;
      border-bottom-color: red;
  }
@@ -223,19 +259,240 @@
 
  /*/Artikel header/*/
 
- .artikelenHeader {
+ .article header {
      background-image: url(Images/nav_background.png);
-     height: 60%;
+     height: 20%;
      margin-left: 0;
      margin-right: 0;
  }
 
- .artikelenHeader h1 {
+ .article h1 {
      color: white;
-     padding: 1.875em 1.5em;
-     max-width: 10em;
-     font-size: 2.25em;
+     padding: 1em 0em 1em .5em;
+     max-width: 20em;
+     font-size: 1.85em;
      font-weight: 800;
      line-height: .92;
+     position: relative;
+     margin: 0;
+     background-color: #AF0024;
 
+ }
+
+ .article section {
+     width: 100%;
+     margin: 0;
+
+ }
+
+ .article article p {
+     max-width: 20em;
+     margin: 1.5em;
+     font-weight: 100;
+     font-family: 'Roboto', sans-serif;
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 133%;
+ }
+
+ .article article p:first-of-type {
+     font-size: 1.125em;
+ }
+
+ .article article {
+     position: relative;
+     top: 7em;
+ }
+
+ .article img {
+     width: 100%;
+ }
+
+
+ .article img:nth-of-type(2) {
+     object-fit: cover;
+     width: 90%;
+     margin: 5%;
+     height: 10em;
+     position: relative;
+     top: -1em;
+
+ }
+
+ .article h3 {
+     font-family: "Suisse Int'l Medium";
+     position: absolute;
+     top: 37.6em;
+     margin: 0;
+     padding: 10%;
+     color: white;
+     max-width: 10em;
+
+ }
+
+ .article article a {
+     background-color: white;
+     text-decoration: none;
+     color: black;
+     padding: .4em .5em;
+     position: relative;
+     top: -5em;
+     left: 1.7em;
+ }
+
+ .article p span {
+     display: block;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ .article article p:last-of-type {
+     position: relative;
+     top: -6em;
+     left: 1em;
+     font-size: .625em;
+     color: white;
+     padding: .5em .3em;
+     background-color: #413e3e;
+     width: 5em;
+ }
+
+ .article article p:nth-last-of-type(2) {
+     position: relative;
+     top: -3em;
+ }
+
+
+ /*/ Footer /*/
+
+ footer div {
+     background-color: #c2002f;
+     height: 1.2px;
+     width: 85%;
+     margin: auto;
+     position: relative;
+     top: -.5em;
+
+ }
+
+ .main footer {
+     position: relative;
+     top: -3em;
+ }
+
+ footer p {
+
+     margin: 1.5em;
+     font-weight: 100;
+     font-family: 'Roboto', sans-serif;
+     font-size: 1em;
+     font-weight: 400;
+     line-height: 133%;
+ }
+
+ footer {
+     margin-top: 5.5em;
+ }
+
+ .article footer img {
+     width: 80%;
+     display: block;
+     margin: auto;
+ }
+
+ .main footer img {
+     width: 80%;
+     display: block;
+     margin: auto;
+ }
+
+ footer ul {
+     list-style: none;
+     vertical-align: top;
+     display: inline-block;
+     width: 42%;
+     margin-bottom: 5em;
+     position: relative;
+     top: 1em;
+ }
+
+ footer ul li:nth-of-type(1) {
+     font-weight: 600;
+ }
+
+ footer ul:nth-of-type(1) li:nth-of-type(8) {
+     font-weight: 600;
+     margin-top: 1em;
+ }
+
+ footer ul:nth-of-type(2) li:nth-of-type(5) {
+     font-weight: 600;
+     margin-top: 1em;
+ }
+
+ footer p:first-of-type {
+     font-weight: 800;
+     margin-bottom: -1.5em;
+ }
+
+ footer a:first-of-type {
+     text-decoration: none;
+     color: white;
+     background-color: #C2002F;
+     padding: .5em .3em;
+     position: relative;
+     left: 1.5em;
+     top: -.5em;
+     font-weight: 600;
+
+ }
+
+ footer p:nth-of-type(3) {
+     font-weight: 600;
+     margin-bottom: .1em;
+ }
+
+ .article footer a img {
+     width: 10%;
+     display: inline-block;
+     position: relative;
+     margin: 0 .5em;
+ }
+
+ .article footer a:nth-of-type(2) img {
+     margin-left: 1.6em;
+ }
+
+ .article footer a:nth-of-type(7) img {
+     margin-left: 1.6em;
+ }
+
+ .article footer a:nth-of-type(12) img {
+     margin-left: 1.6em;
+ }
+
+ .main footer a img {
+     width: 10%;
+     display: inline-block;
+     position: relative;
+     margin: 0 .5em;
+ }
+
+
+
+ .main footer a:nth-of-type(2) img {
+     margin-left: 1.6em;
+ }
+
+ .main footer a:nth-of-type(7) img {
+     margin-left: 1.6em;
+ }
+
+ .main footer a:nth-of-type(12) img {
+     margin-left: 1.6em;
+ }
+
+ footer p:last-of-type {
+     font-size: .6em;
+     text-align: center;
+     margin-left: 1em;
  }
