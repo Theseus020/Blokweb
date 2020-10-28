@@ -19,7 +19,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Bij het eindgesprek heb ik mijn volledige site afgekregen. Ik heb een JS interactie gemaakt door een uitklapbaar menu toe te voegen. Ik heb foutjes uit de code verwerkt, zoals de bestandnamen van images zonder '/' te laten beginnen. Ook heb ik mijn styling aangepast. Ik heb een footer gemaakt met daarin twee UL's die naast elkaar staan. Ik had nog een vage bug in mijn homepage zitten, de nav nam namelijk veel ruimte in beslag. Deze hebben Robert en ik helaas niet meer weten op te lossen.
 
 **Screenshot(s):**
-
+![Foto 1](images/screenshot_eindresultaat.png)
 
 
 
