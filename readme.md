@@ -11,6 +11,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. https://stackoverflow.com/questions/9925754/css-horizontal-scroll > horizontaal scroll menu
 2. https://css-tricks.com/almanac/properties/o/object-fit/ > voor het croppen van foto's op mijn site
 3. https://codepen.io/theseus020/pen/MWyBYyP > js dropdown menu
+4. https://stackoverflow.com/questions/8879400/how-to-set-image-to-be-tabbable > tab-index voor hamburger icoontje in nav
 
 
 
