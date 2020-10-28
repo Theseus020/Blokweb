@@ -101,9 +101,9 @@
      left: 4em;
  }
 
-nav img:focus {
-    outline: 2px solid blue;
-}
+ nav img:focus {
+     outline: 2px solid blue;
+ }
 
  /*/Klapmenu java /*/
 
@@ -322,7 +322,7 @@ nav img:focus {
  }
 
  .article h3 {
-    font-family: 'Roboto', sans-serif;
+     font-family: 'Roboto', sans-serif;
      position: absolute;
      top: 37.6em;
      margin: 0;
