@@ -25,10 +25,6 @@
  }
 
 
- header nav {
-     height: 100vh;
- }
-
  nav li a[href="index.html"] {
      font-family: "Suisse Int'l Medium";
      color: white;
@@ -62,7 +58,7 @@
      padding-left: 1.25em;
      flex-grow: 1;
      background-image: url("Images/nav_background.png");
-     height: 6em;
+     height: em;
      margin-left: 0;
      margin-right: 0;
      margin-top: 0;
@@ -98,10 +94,12 @@
 
  }
 
-nav img {
-    position:relative;
-    left: 4em;
-}
+ nav img {
+     position: relative;
+     left: 4em;
+ }
+
+ /*/Klapmenu java /*/
 
  nav ul:nth-of-type(2) {
      position: relative;
@@ -112,8 +110,8 @@ nav img {
      opacity: 0%;
      padding-top: 1em;
      padding-bottom: 1em;
-     z-index: -1;
      transition: .5s;
+     z-index: -1;
  }
 
  nav ul:nth-of-type(2).menuOpen {
@@ -217,7 +215,6 @@ nav img {
  }
 
 
-
  /*/////////////Scroll menu //////////////////*/
 
  .main main section:nth-of-type(2) {
@@ -275,6 +272,7 @@ nav img {
      line-height: .92;
      position: relative;
      margin: 0;
+     z-index: -1em;
      background-color: #AF0024;
 
  }
@@ -476,8 +474,6 @@ nav img {
      position: relative;
      margin: 0 .5em;
  }
-
-
 
  .main footer a:nth-of-type(2) img {
      margin-left: 1.6em;
