@@ -26,12 +26,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+In deze week hadden we geleerd over toegankelijkheid. Het is belangrijk dat je HTML clean is en dat je niet overal onnodig classes toevoegd. Ook moeten ALT's en benamingen van je content goed gemeld worden, want anders levert dat problemen op voor mensen met een beperking.
+Toen ik mijn website besprak met de studentassistent vertelde hij me dat ik mijn classes moest aanpassen. Ook kon ik de body van de verschillende pagina's een aparte class geven, zodat ik dit gemakkelijk kan stylen. 
 
 
 
 ## Voortgang 2 (week 5)
 
+In deze week kregen we wat te horen 
 ![Foto 1](images/wk5_voortgang.png)
 
 
