@@ -2,7 +2,7 @@
  *::after,
  *::before {
      box-sizing: border-box;
-     font-family: "Suisse Int'l Medium";
+     font-family: 'Roboto', sans-serif;
 
  }
 
@@ -26,18 +26,20 @@
 
 
  nav li a[href="index.html"] {
-     font-family: "Suisse Int'l Medium";
+     font-family: 'Roboto', sans-serif;
      color: white;
      text-transform: uppercase;
      font-size: 2em;
-     font-family: "SuisseIntl", sans-serif;
+     font-family: 'Roboto', sans-serif;
      font-weight: 800;
      line-height: .92;
+     position: relative;
+     bottom: .2em;
  }
 
  nav a[href="https://www.ajaxshop.nl/nl"],
  [href="https://sport.eventim.nl/ols/ajax/nl/thuiswedstrijden/channel/shop/index/l"] {
-     font-family: "Suisse Int'l Medium";
+     font-family: 'Roboto', sans-serif;
      padding: .3em .75em;
      text-align: center;
      color: white;
@@ -47,6 +49,7 @@
      border-radius: 15px;
      border-width: 1px;
      transition: .25s;
+     font-weight: 600;
  }
 
  nav ul:first-of-type {
@@ -159,7 +162,7 @@
  }
 
  article h3 {
-     font-family: "Suisse Int'l Medium";
+     font-family: 'Roboto', sans-serif;
      position: absolute;
      font-size: 1.5em;
      margin: 0;
@@ -169,7 +172,7 @@
  }
 
  .main article:nth-child(1) a {
-     font-family: "Suisse Int'l Medium";
+     font-family: 'Roboto', sans-serif;
      position: absolute;
      text-decoration: none;
      color: black;
@@ -182,7 +185,7 @@
  }
 
  .main article:nth-child(2) a {
-     font-family: "Suisse Int'l Medium";
+     font-family: 'Roboto', sans-serif;
      position: absolute;
      text-decoration: none;
      color: black;
@@ -196,7 +199,7 @@
  }
 
  .main article:nth-child(1) p {
-     font-family: "Suisse Int'l Medium";
+     font-family: 'Roboto', sans-serif;
      position: absolute;
      margin: 0;
      padding: .4em .5em;
@@ -207,12 +210,9 @@
  }
 
  .main article:nth-of-type(1) {
-     padding-top: 120px;
+     padding-top: 6em;
  }
 
- .beginArtikel {
-     padding-top: 120px;
- }
 
 
  /*/////////////Scroll menu //////////////////*/
@@ -318,7 +318,7 @@
  }
 
  .article h3 {
-     font-family: "Suisse Int'l Medium";
+     font-family: 'Roboto', sans-serif;
      position: absolute;
      top: 37.6em;
      margin: 0;
