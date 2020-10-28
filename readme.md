@@ -16,11 +16,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Bij het eindgesprek heb ik mijn volledige site afgekregen. Ik heb een JS interactie gemaakt door een uitklapbaar menu toe te voegen. Ik heb foutjes uit de code verwerkt, zoals de bestandnamen van images zonder '/' te laten beginnen. Ook heb ik mijn styling aangepast. Ik heb een footer gemaakt met daarin twee UL's die naast elkaar staan. Ik had nog een vage bug in mijn homepage zitten, de nav nam namelijk veel ruimte in beslag. Deze hebben Robert en ik helaas niet meer weten op te lossen.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+
 
 
 
@@ -33,7 +33,8 @@ Toen ik mijn website besprak met de studentassistent vertelde hij me dat ik mijn
 
 ## Voortgang 2 (week 5)
 
-In deze week kregen we wat te horen 
+In deze week kregen we wat te horen over CSS grids en mediaquery. Ik ga dit uiteindelijk niet gebruiken omdat ik mijn website niet responsive ga maken. Het is toch nuttig om deze trucjes te leren, mocht ik het ooit nodig hebben. Deze week kreeg ik feedback van Robert. Hij vertelde me dat ik mijn classnames en opmaak van HTML moest aanpassen, omdat deze semantisch niet correct was. 
+
 ![Foto 1](images/wk5_voortgang.png)
 
 
