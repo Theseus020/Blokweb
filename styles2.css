@@ -26,11 +26,10 @@
 
 
  nav li a[href="index.html"] {
-     font-family: 'Roboto', sans-serif;
      color: white;
      text-transform: uppercase;
      font-size: 2em;
-     font-family: 'Roboto', sans-serif;
+     font-family: "SuisseIntl", sans-serif;
      font-weight: 800;
      line-height: .92;
      position: relative;
@@ -101,6 +100,10 @@
      position: relative;
      left: 4em;
  }
+
+nav img:focus {
+    outline: 2px solid blue;
+}
 
  /*/Klapmenu java /*/
 
@@ -185,7 +188,7 @@
  }
 
  .main article:nth-child(2) a {
-     font-family: 'Roboto', sans-serif;
+     font-family: "Suisse Int'l Medium";
      position: absolute;
      text-decoration: none;
      color: black;
@@ -199,7 +202,7 @@
  }
 
  .main article:nth-child(1) p {
-     font-family: 'Roboto', sans-serif;
+     font-family: "Suisse Int'l Medium";
      position: absolute;
      margin: 0;
      padding: .4em .5em;
@@ -256,6 +259,7 @@
 
  /*/Artikel header/*/
 
+
  .article header {
      background-image: url(Images/nav_background.png);
      height: 20%;
@@ -265,14 +269,14 @@
 
  .article h1 {
      color: white;
+     font-family: "SuisseIntl", sans-serif;
      padding: 1em 0em 1em .5em;
      max-width: 20em;
      font-size: 1.85em;
      font-weight: 800;
-     line-height: .92;
+     line-height: 1;
      position: relative;
      margin: 0;
-     z-index: -1em;
      background-color: #AF0024;
 
  }
@@ -318,7 +322,7 @@
  }
 
  .article h3 {
-     font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
      position: absolute;
      top: 37.6em;
      margin: 0;
