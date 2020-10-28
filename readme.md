@@ -8,9 +8,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://stackoverflow.com/questions/9925754/css-horizontal-scroll > horizontaal scroll menu
+2. https://css-tricks.com/almanac/properties/o/object-fit/ > voor het croppen van foto's op mijn site
+3. https://codepen.io/theseus020/pen/MWyBYyP > js dropdown menu
 
 
 
