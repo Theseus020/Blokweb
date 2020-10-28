@@ -20,6 +20,7 @@ Bij het eindgesprek heb ik mijn volledige site afgekregen. Ik heb een JS interac
 
 **Screenshot(s):**
 ![Foto 1](images/screenshot_eindresultaat.png)
+![Foto 1](images/screenshot_eindresultaat2.png)
 
 
 
