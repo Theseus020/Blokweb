@@ -188,7 +188,7 @@
  }
 
  .main article:nth-child(2) a {
-     font-family: "Suisse Int'l Medium";
+     font-family: 'Roboto', sans-serif;
      position: absolute;
      text-decoration: none;
      color: black;
