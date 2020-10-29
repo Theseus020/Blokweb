@@ -201,16 +201,6 @@
      background-color: white;
  }
 
- .main article:nth-child(1) p {
-     font-family: "Suisse Int'l Medium";
-     position: absolute;
-     margin: 0;
-     padding: .4em .5em;
-     bottom: 10%;
-     left: 10%;
-     font-weight: 200;
-     background-color: white;
- }
 
  .main article:nth-of-type(1) {
      padding-top: 6em;
