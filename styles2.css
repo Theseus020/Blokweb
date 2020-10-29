@@ -3,7 +3,6 @@
  *::before {
      box-sizing: border-box;
      font-family: 'Roboto', sans-serif;
-     margin: auto;
 
  }
 
@@ -177,6 +176,10 @@ nav {
      color: white;
      max-width: 10em;
  }
+
+main section{
+         margin: auto;
+}
 
  .main article:nth-child(1) a {
      font-family: 'Roboto', sans-serif;
