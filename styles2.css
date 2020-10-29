@@ -3,6 +3,7 @@
  *::before {
      box-sizing: border-box;
      font-family: 'Roboto', sans-serif;
+     margin: auto;
 
  }
 
@@ -17,12 +18,15 @@
      display: flex;
      justify-content: space-between;
      flex-wrap: nowrap;
-     overflow: hidden;
      position: fixed;
      width: 100%;
      top: 0;
      z-index: 1;
  }
+
+nav {
+    width: 100%;
+}
 
 
  nav li a[href="index.html"] {
